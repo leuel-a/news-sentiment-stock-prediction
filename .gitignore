@@ -5,7 +5,7 @@
 *.csv
 
 # Custom Files for Development and Resources
-asset_files
+technical_content
 
 # Jetbrains files
 .idea
