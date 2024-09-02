@@ -130,3 +130,6 @@ websocket-client @ file:///croot/websocket-client_1715878298792/work
 wheel==0.43.0
 widgetsnbextension @ file:///croot/widgetsnbextension_1709322880396/work
 zipp @ file:///home/conda/feedstock_root/build_artifacts/zipp_1695255097490/work
+
+plotly~=5.24.0
+yfinance~=0.2.43

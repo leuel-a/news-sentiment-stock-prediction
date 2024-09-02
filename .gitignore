@@ -1,5 +1,6 @@
 # Python
 .venv
+__pycache__
 
 # CSV files do not need to be pushed to github the .zip version will be included
 *.csv
