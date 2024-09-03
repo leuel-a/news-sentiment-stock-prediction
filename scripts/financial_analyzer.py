@@ -111,6 +111,7 @@ class FinancialAnalyzer:
     def plot_rsi(self):
         """Plots the SMA for the given financial data"""
 
+        # TODO: Update the height ratios to make the visuals more bigger
         fig = make_subplots(rows=2, cols=1)
 
         fig.add_trace(
@@ -158,6 +159,7 @@ class FinancialAnalyzer:
     def plot_macd(self):
         """Plots the MACD for the given financial data"""
 
+        # TODO: Add the histogram for the MACD in the figure
         fig = px.line(self.df, x="Date", y=["MACD", "MACD_Signal"],
                       title=f"Moving Average Convergence Divergence (MACD) for {self.symbol}")
 
